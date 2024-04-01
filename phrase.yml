@@ -1,0 +1,14 @@
+phrase:
+  access_token: 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
+  project_id: 872e72d4904023acee437bc424c08241
+  push:
+    sources:
+    - file: ./Figma_Book Store_EN.json
+      params:
+        locale_id: en-us
+        file_format: simple_json
+  pull:
+    targets:
+    - file: ./Figma_Book Store_EN_<locale_name>.json
+      params:
+        file_format: simple_json
