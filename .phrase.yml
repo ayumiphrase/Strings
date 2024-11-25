@@ -1,14 +1,14 @@
 phrase:
-  access_token: eae2d62043209662fa2d06303e29a37567412aa6f72f7fd704a9154acef51591
-  project_id: 872e72d4904023acee437bc424c08241
+  access_token: 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
+  project_id: d6aaacf925e513af5bfea4c84f6a0402
   push:
     sources:
-    - file: ./Book Store_en-US.json
+    - file: ./Adventure_ja.json
       params:
-        locale_id: en-US
+        locale_id: ja
         file_format: simple_json
   pull:
     targets:
-    - file: ./Book Store_<locale_name>.json
+    - file: ./Adventure_<locale_name>.json
       params:
         file_format: simple_json
